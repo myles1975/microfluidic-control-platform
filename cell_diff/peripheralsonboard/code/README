@@ -1,0 +1,55 @@
+How to Use Controller:
+
+    - on raspbery pi run... 
+
+        python server_backend.py ip 
+
+      where ip is the ip of the pi
+
+    - on CPU run... 
+
+        python controller.py ip
+        
+      where ip is the ip of the pi
+
+How to Kill Server:
+
+    - on CPU, start python interpreter by typing python into terminal
+    - type the following
+
+        from client import Client
+        client = client("ip")
+        client.kill_server()
+
+      where ip is the ip of the pi
+
+Files that are used:
+
+    Raspberry Pi:
+        - server_backend.py: recieves commands from CPU and calls appropiate
+        functions
+        - labonscope.py: alters and anylyzes board state
+        - ad5933.py (in eisb foler): alters and analyzes frequency board 
+
+    CPU:
+        - controller.py: main file 
+        - interface.py: tkinter window
+        - client.py: performs operations and sends adn recieves info from server
+        (user can use through python interpreter)
+        - eis_board_class.py: sends commands to server to controll frequency 
+        board
+        - pressure_controller.py: alters and analyzes state of pressure
+        controller
+
+Classes:
+
+    Raspberry Pi:
+        LoSServer()
+        LoS()
+        ad5933()
+
+    CPU: 
+        Interface()
+        Client()
+        Eis_Board()
+        OB1_Pressure_Controller()
