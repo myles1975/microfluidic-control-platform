@@ -68,8 +68,8 @@ Real-Time Visualization: Live graphs of P1/P2 (psi), temperature (°C), and impe
 
 File-Based Automation: Batch-execute experiments from formatted text files:
 
- p1 p2 time v1 v2 v3 v4 v5 v6 v7 v8
- 20 30   10 1  0  1  0  0  1  1  0
+pressure1 pressure2 time_in_seconds valve1 valve2 valve3 valve4 valve5 valve6 valve7 valve8
+(Example inputs: 20 30   10 1  0  1  0  0  1  1  0)
 
 Safety Failsafes: Automatic shutoff at 55°C, input validation, and user warnings.
 
