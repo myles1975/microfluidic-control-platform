@@ -1,9 +1,8 @@
 # microfluidic-control-platform
 
-A Python-based full-stack microfluidic control platform for cell-culture experiments, featuring a TCP/IP client-server architecture, real-time Tkinter GUI with live data plotting, and seamless integration with custom hardware peripherals on Raspberry Pi designed at the Tufts Advanced Integrated Circuits and Systems Lab. 
+Designed and implemented a Python-based full-stack microfluidic control platform for cell-culture experiments at Tufts’ Advanced Integrated Circuits and Systems Lab, featuring a TCP/IP client–server architecture; a real-time Tkinter GUI with live data plotting; automated pressure and temperature control with valve actuation; file reading and parsing; and seamless integration of custom Raspberry Pi hardware peripherals in collaboration with an electrical-engineering PhD candidate.
 
 Presentaion slides: https://docs.google.com/presentation/d/1pSAyi6HHytp9wB2Ez22ylbWzAR-6p3s1uTG5hsWhlGs/edit?usp=sharing
-
 
 🚀 Project Overview
 
